@@ -1,4 +1,4 @@
-package com.siva.janni.mysimpleapplication.controller;
+package com.siva.janni.mysimpleapplication.model;
 
 public class Employee {
     private int id;
