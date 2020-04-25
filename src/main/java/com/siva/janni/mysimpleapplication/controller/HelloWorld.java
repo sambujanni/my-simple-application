@@ -10,4 +10,9 @@ public class HelloWorld {
     public String wish() {
         return "Hello World!!";
     }
+
+    @GetMapping("/message")
+    public  String message() {
+        return "I Am Back Be Ready";
+    }
 }
