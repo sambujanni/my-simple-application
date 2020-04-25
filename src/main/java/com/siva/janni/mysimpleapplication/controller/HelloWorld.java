@@ -27,6 +27,7 @@ public class HelloWorld {
 
     @GetMapping("/{id}")
     public Optional<Student> getStudent(@PathVariable int id) {
+        System.out.println(id);
         return students.stream().filter(s -> s.getId() == id).findFirst();
     }
 
